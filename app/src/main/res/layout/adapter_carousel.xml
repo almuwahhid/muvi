@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/adapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:id="@+id/img_avatar"
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_movie_placeholder" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_fav"
+                style="@style/clickable"
+                app:cardCornerRadius="@dimen/dimen_20dp"
+                app:contentPadding="@dimen/padding_default"
+                android:layout_margin="@dimen/margin_default"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/ic_love_outline"
+                    android:id="@+id/img_favorite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:visibility="gone"
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_movie_placeholder" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

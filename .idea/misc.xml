@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.41822916666666665" />
+        <entry key="app/src/main/res/drawable/bg_white.xml" value="0.2475" />
+        <entry key="app/src/main/res/drawable/ic_movie_placeholder.xml" value="0.2585" />
+        <entry key="app/src/main/res/drawable/ic_pokemon_placeholder.xml" value="0.2585" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.2585" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_movie_detail.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_movie_search.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_pokemon_detail.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_search_movie.xml" value="0.3645833333333333" />
+        <entry key="app/src/main/res/layout/adapter_ability.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/adapter_avatar.xml" value="0.3215049166310389" />
+        <entry key="app/src/main/res/layout/adapter_carousel.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/adapter_home.xml" value="0.3645833333333333" />
+        <entry key="app/src/main/res/layout/adapter_moves.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/adapter_movie.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.21441523118767" />
+        <entry key="app/src/main/res/layout/fragment_movie_search.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_search_movie.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/search.xml" value="0.5" />
+        <entry key="resources/src/main/res/drawable/bg_bottom_sheet.xml" value="0.2185" />
+        <entry key="resources/src/main/res/drawable/bg_form.xml" value="0.2585" />
+        <entry key="resources/src/main/res/drawable/ic_back.xml" value="0.2475" />
+        <entry key="resources/src/main/res/drawable/ic_ep_circle_close_filled.xml" value="0.2585" />
+        <entry key="resources/src/main/res/drawable/ic_ep_circle_close_white.xml" value="0.2585" />
+        <entry key="resources/src/main/res/layout/helper.xml" value="0.33" />
+        <entry key="resources/src/main/res/layout/toolbar_base.xml" value="0.34057971014492755" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/resources/src/main/assets/loading.json" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
