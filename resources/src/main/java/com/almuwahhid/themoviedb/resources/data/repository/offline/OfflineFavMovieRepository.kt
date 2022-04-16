@@ -34,7 +34,7 @@ class OfflineFavMovieRepository(val favMovie : FavMovieDao) : IOfflineFavMovieRe
         return@withContext favMovie.isExist(id)
     }
 
-    override suspend fun isMoviesFavorited(movies : List<FavMovie>): Flow<Pair<FavMovie, Boolean>> {
+    override suspend fun  isMoviesFavorited(movies : List<FavMovie>): Flow<Pair<FavMovie, Boolean>> {
         return flow {
             for(movie in movies) {
                 emit(Pair(movie, favMovie.isExist(movie.id)))
